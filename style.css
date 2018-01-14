@@ -356,7 +356,9 @@ by neel
 }
 
 
-
+.dropshadow {
+    filter: drop-shadow(0px 0px 5px black);
+}
 
 
 
@@ -394,11 +396,33 @@ by neel
     margin-top: 380px;
 }
 
+/* EDIT THIS */
 .card:hover .card_circle {
     background-size: cover;
     border-radius: 0;
     margin-top: -130px;
 }
+.card:hover .card_circle_1 {
+    background-size: cover;
+    border-radius: 0;
+    margin-top: -130px;
+}
+.card:hover .card_circle_2 {
+    background-size: cover;
+    border-radius: 0;
+    margin-top: -130px;
+}
+.card:hover .card_circle_3 {
+    background-size: cover;
+    border-radius: 0;
+    margin-top: -130px;
+}
+.card:hover .card_circle_4 {
+    background-size: cover;
+    border-radius: 0;
+    margin-top: -130px;
+}
+
 
 .card:hover h2 {
     background: #3487f7;
@@ -415,8 +439,59 @@ by neel
     margin-top: 300px
 }
 
+
+/* EDIT THIS */
+.cardBackground{
+    background: url('/Assets/headerPersonalWebsite.png') no-repeat center bottom;
+    background-color: #3487f7;
+    background-size: cover;
+}
 .card_circle {
     background: url('http://lorempixel.com/400/200') no-repeat center bottom;
+    background-color: #3487f7;
+    background-size: cover;
+    border-radius: 50%;
+    height: 400px;
+    margin-left: -100px;
+    margin-top: -270px;
+    position: absolute;
+    width: 500px;
+}
+.card_circle_1{
+    background: url('Assets/PersonalWebsiteheader2.png') no-repeat center bottom;
+    background-color: #3487f7;
+    background-size: cover;
+    border-radius: 50%;
+    height: 400px;
+    margin-left: -100px;
+    margin-top: -270px;
+    position: absolute;
+    width: 500px;
+}
+.card_circle_2{
+    background: url('Assets/yahtzeeHeader.png') no-repeat center bottom;
+    background-color: #3487f7;
+    background-size: cover;
+    border-radius: 50%;
+    height: 400px;
+    margin-left: -100px;
+    margin-top: -270px;
+    position: absolute;
+    width: 500px;
+}
+.card_circle_3{
+    background: url('Assets/blackjackHeader.png') no-repeat center bottom;
+    background-color: #3487f7;
+    background-size: cover;
+    border-radius: 50%;
+    height: 400px;
+    margin-left: -100px;
+    margin-top: -270px;
+    position: absolute;
+    width: 500px;
+}
+.card_circle_4{
+    background: url('Assets/cannonBallHeader.png') no-repeat center bottom;
     background-color: #3487f7;
     background-size: cover;
     border-radius: 50%;
