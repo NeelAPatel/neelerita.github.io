@@ -422,7 +422,11 @@ by neel
     border-radius: 0;
     margin-top: -130px;
 }
-
+.card:hover .card_circle_5 {
+    background-size: cover;
+    border-radius: 0;
+    margin-top: -130px;
+}
 
 .card:hover h2 {
     background: #3487f7;
@@ -492,6 +496,17 @@ by neel
 }
 .card_circle_4{
     background: url('Assets/cannonBallHeader.png') no-repeat center bottom;
+    background-color: #3487f7;
+    background-size: cover;
+    border-radius: 50%;
+    height: 400px;
+    margin-left: -100px;
+    margin-top: -270px;
+    position: absolute;
+    width: 500px;
+}
+.card_circle_5{
+    background: url('Assets/discord_logo1600%20(1).png') no-repeat center bottom;
     background-color: #3487f7;
     background-size: cover;
     border-radius: 50%;
